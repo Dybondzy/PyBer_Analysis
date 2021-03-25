@@ -24,7 +24,13 @@ Omar has approved the project scope. It's time to get to work!
 ## Module 5 Challenge
 
 ### Background
+
+#### Purpose
+
 V. Isualize has given you and Omar a brand-new assignment. Using your Python skills and knowledge of Pandas, you’ll create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, you’ll create a multiple-line graph that shows the total weekly fares for each city type. Finally, you’ll submit a written report that summarizes how the data differs by city type and how those differences can be used by decision-makers at PyBer.
+
+
+#### Overview
 
 What You're Creating
 This new assignment consists of two technical analysis deliverables and a written report to present your results. You will submit the following:
@@ -33,12 +39,13 @@ Deliverable 1: A ride-sharing summary DataFrame by city type, located at:
 https://github.com/Dybondzy/PyBer_Analysis/blob/main/PyBer_Challenge_starter_code.ipynb
 
 Deliverable 2: A multiple-line chart of total fares for each city type, located at:
-
+https://github.com/Dybondzy/PyBer_Analysis/blob/main/money_summary_bymonth.png
 
 Deliverable 3: A written report for the PyBer analysis (README.md), located at:
 https://github.com/Dybondzy/PyBer_Analysis/blob/main/README.md
 
-Deliverable 1: A ride-sharing summary DataFrame by city type (35 points)
+##### Deliverable 1: 
+A ride-sharing summary DataFrame by city type (35 points)
 Deliverable 1 Instructions
 Using the Pandas groupby() function with the count() and sum() methods on PyBer DataFrame columns, get the total number of rides, total number of drivers, and the total fares for each city type. Then, calculate the average fare per ride and average fare per driver for each city type. Finally, add this data to a new DataFrame, then format the columns.
 
@@ -64,7 +71,8 @@ The average fare per driver for each city type is calculated. (5 pt)
 A PyBer summary DataFrame is created. (5 pt)
 The PyBer summary DataFrame is formatted as shown in the example. (5 pt)
 
-Deliverable 2: A multiple-line chart of total fares for each city type (45 points)
+##### Deliverable 2: 
+A multiple-line chart of total fares for each city type (45 points)
 Deliverable 2 Instructions
 Using your Pandas skills and two new functions, pivot() andresample(), create a multiple-line graph that shows the total fares for each week by city type.
 
@@ -85,6 +93,7 @@ In Step 14, use the provided code snippet, df.info(), to check that the "date" i
 In Step 15, create a new DataFrame by applying the resample() function to the DataFrame you modified in Step 13. Resample the data in weekly bins, then apply the sum() method to get the total fares for each week.
 
 Finally, in Step 16, graph the resampled DataFrame from Step 15 using the object-oriented interface method and the df.plot() method, as well as the Matplotlib "fivethirtyeight" graph style code snippet provided in the starter code. Annotate the y-axis label and the title, then use the appropriate code to save the figure as PyBer_fare_summary.png in your "analysis" folder.
+(https://github.com/Dybondzy/PyBer_Analysis/blob/main/money_summary_bymonth.png)
 
 Confirm that your multiple-line chart looks like the following image, where each week is a peak or dip in the line graphs.
 
@@ -101,22 +110,17 @@ Deliverable 3: A written report for the PyBer analysis (20 points)
 Deliverable 3 Instructions
 Use your repository README file to write your analysis of how to address any disparities in the ride-sharing data among the city types.
 
+
+##### Analysis
+
 The analysis should contain the following:
 
 Overview of the analysis: Explain the purpose of the new analysis.
 Results: Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
 Summary: Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
 Deliverable 3 Requirements
-Structure, Organization, and Formatting (6 points)
-The written analysis has the following structure, organization, and formatting:
 
-There is a title, and there are multiple sections. (2 pt)
-Each section has a heading and subheading. (2 pt)
-Links to images are working and displayed correctly. (2 pt)
-Analysis (14 points)
-The written analysis has the following:
-
-Overview of the analysis:
+##### Overview of the analysis:
 
 The purpose of the new analysis is well defined. (3 pt)
 Results:
@@ -125,6 +129,13 @@ There is a description of the differences in ride-sharing data among the differe
 Summary:
 
 There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. (4 pt)
+1. In late February the fares in Rural, Urban, and Suburban rates, rise.
+2. The fares fluctuate in the rural areas more often.
+3. Fares in the suburban areas are more stable in the first quarter of the year, and then they fluctuate.
+4. In the first quarter of the year, the fares rise steadily and then fluctuate after.
+
+
+
 Submission
 Once you’re ready to submit, make sure to check your work against the rubric to ensure you are meeting the requirements for this Challenge one final time. It’s easy to overlook items when you’re in the zone!
 
